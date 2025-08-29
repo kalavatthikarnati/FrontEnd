@@ -1,11 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Cart from "./pages/Cart";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from "./Pages/Login";
 import Home from "./Pages/Home";
-
-
+import Cart from "./Pages/Cart"
 
 
 

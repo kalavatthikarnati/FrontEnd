@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({children}) => {
-    const url = "http://localhost:4000";
+    const url = "https://bsckend-3.onrender.com";
     const [token, setToken] = useState("");
   
     console.log(token)
